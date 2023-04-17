@@ -1,0 +1,122 @@
+body.back{
+    /*Sayfa Arkaplan Rengi*/
+
+    background-color: gray;
+}
+
+li.center{
+    /*Listeyi Ortalama,Font,Metin Rengi*/
+    list-style:none;
+    display: inline-block;
+    font-family: 'Merriweather', serif;
+    color: white;
+    
+}
+/*Link*/
+a.buton{
+/*Buton Şekli,Arkaplan Rengi,Metin Ortalama,Metin Boyutu,Gölge*/
+    border: none;
+    color: white;
+    background-color: rgb(250, 96, 96);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 3px 3px 2px 2px black;
+    
+}
+li{
+    font-family: 'Merriweather', serif;
+}
+a:hover
+{
+    background-color: #555555;
+}
+
+li.pos{
+    
+    list-style-position: inside;
+}
+/*Unordered list*/
+ul{
+    /*Metin Ortalama*/
+    text-align: center;
+}
+/*Ordered list*/
+ol{
+    /*Metin Ortalama*/
+    text-align: center;
+}
+ul.poscenter{
+    /*Font,Metni Sola Yaslama*/
+    display: inline-block;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+}
+ol.poscenter{
+    list-style-position: inside;
+}
+/*Başlık*/
+h1{
+    /*Metin Ortalama,Font,Metin Rengi*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: crimson;
+}
+/*Başlık*/
+h2{
+    /*Metin Ortalama,Font,Metin Rengi*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: firebrick;
+}
+/*Link*/
+a.color{
+    /*Metin Rengi*/
+    color:crimson;
+}
+
+
+/*Article*/
+article.pos{
+    /*Metin Ortalama*/
+    text-align: center;
+}
+/*Paragraf*/
+p.center
+{
+    /*Metin Ortalama,Font*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+/*Article*/
+article.font{
+    /*Font*/
+    font-family: 'Merriweather', serif;
+}
+/*Başlık*/
+h3{
+    /*Metin Rengi*/
+    color: maroon;
+}
+/*Paragraf*/
+p.back{
+    /*Arkaplan Rengi,Kenarlar*/
+background-color:salmon;
+border-radius: 12px;
+border-width: 5px;
+border-color: salmon;
+border-style: outset;
+display: inline-block;
+font-family: 'Merriweather', serif;
+}
+strong{
+    color:blue;
+    padding: 1px 1px;
+    background-color: white;
+    border-radius: 12px;
+}
